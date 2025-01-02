@@ -21,7 +21,7 @@ function startGame() {
     isClicked = true;
 
     setTimeout(() => {
-      btn.style.backgroundColor = "hsl(0, 90%, 60%)";
+      btn.style.backgroundColor = "hsl(0, 90%, 70%)";
       isClicked = false;
       startGame();
     }, 400);
