@@ -1,0 +1,47 @@
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 100vh;
+}
+
+#btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  padding: 100px;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(0, 90%, 70%);
+  transition: transform 300ms;
+}
+
+#btn:hover{
+  transform: scale(1.02);
+}
+
+#btn:active{
+  transform: scale(0.98);
+}
+
+#result{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  translate: -50% -40%;
+}
+
+#times{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  translate: -50% -60%;
+}
+
+#again{
+  display: none;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  translate: -50% -50%;
+  cursor: pointer;
+}
